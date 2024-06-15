@@ -1,10 +1,10 @@
-version: '3.19'
+version: '3'
 
 services:
   app:
     restart: always
     container_name: wahyudin
-    enviroment:
+    environment:
       - TZ=Asia/Makassar
     build:
       context: .
