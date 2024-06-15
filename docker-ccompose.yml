@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    restart: always
+    container_name: wahyudin
+    enviroment:
+      - TZ=Asia/Makassar
+    build:
+      context: .
+    ports:
+      - "8008:8008"
+    volumes:
+      - .:/app
+    command: gunicorn myproject.wsgi:application --bind 0.0.0.0:8008 --workers 4
