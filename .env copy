@@ -6,6 +6,6 @@ ALLOWED_HOSTS=.localhost, .my-kelompok8.my.id, 103.150.196.162
 DB_ENGINE=django.db.backends.mysql
 DB_NAME=uas
 DB_USER=root
-DB_PASSWORD=
+DB_PASSWORD=uas
 DB_HOST=127.0.0.1
 DB_PORT=3306
