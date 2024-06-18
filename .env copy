@@ -4,8 +4,8 @@ DEBUG=True
 ALLOWED_HOSTS=.localhost, .my-kelompok8.my.id, 103.150.196.162
 
 DB_ENGINE=django.db.backends.mysql
-DB_NAME=wahyudin
-DB_USER=wahyudin
-DB_PASSWORD=pa7c9fd096f6084f1aa4c7898956c7450b8132f9b25f31d3d2104c0ea4e59abb91
-DB_HOST=103.150.196.162
+DB_NAME=uas
+DB_USER=root
+DB_PASSWORD=
+DB_HOST=127.0.0
 DB_PORT=3306
